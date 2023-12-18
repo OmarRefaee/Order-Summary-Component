@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e8ff;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: "Red Hat Display";
+}
+
+@media (max-width: 576px) {
+    body {
+        background-image: url("/images/pattern-background-mobile.svg");
+    }
+
+    .container {
+        width: 307px;
+        height: 532px;
+    }
+
+    .box-container {
+        padding: 0 22px;
+    }
+
+    h1 {
+        font-size: 20.7px;
+        margin: 24.5px 0 18px;
+    }
+
+    .main-p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    .plan-box {
+        padding: 16px;
+        margin-top: 25px;
+    }
+
+    .annual-plan-box h3,
+    .annual-plan-box span {
+        font-size: 13.5px;
+        margin: 0;
+    }
+
+    .proceed-btn {
+        margin-top: 20px;
+        height: 47px;
+    }
+
+    .cancel-order {
+        margin-top: 22px;
+    }
+}
+
+@media (min-width: 576px) {
+    body {
+        background-image: url("/images/pattern-background-desktop.svg");
+    }
+
+    .container {
+        width: 441px;
+        height: 682px;
+    }
+
+    .box-container {
+        padding: 0 47px;
+    }
+
+    h1 {
+        margin-top: 40.5px;
+        font-size: 27.5px;
+    }
+
+    .main-p {
+        font-size: 16px;
+        line-height: 24.5px;
+    }
+
+    .plan-box {
+        padding: 25px 26px;
+        margin-top: 22px;
+    }
+
+    .annual-plan-box h3,
+    .annual-plan-box span {
+        font-size: 16px;
+    }
+
+    .annual-plan-box h3 {
+        margin: -3px 0 0 0;
+    }
+
+    .change-btn {
+        position: absolute;
+        right: 27px;
+    }
+
+    .proceed-btn {
+        margin-top: 33px;
+        height: 48px;
+    }
+
+    .cancel-order {
+        margin-top: 32px;
+    }
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    width: -webkit-fill-available;
+    position: absolute;
+    bottom: 0;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.container {
+    background-color: white;
+    box-shadow: 0px 20px 50px -20px hsla(232, 100%, 25%, 0.2);
+    border-radius: 19px;
+    -webkit-border-radius: 19px;
+    -moz-border-radius: 19px;
+    -ms-border-radius: 19px;
+    -o-border-radius: 19px;
+}
+
+.container img {
+    width: -webkit-fill-available;
+    border-top-right-radius: 19px;
+    border-top-left-radius: 19px;
+}
+
+h1 {
+    font-weight: 900;
+    text-align: center;
+    color: hsl(223, 47%, 23%);
+}
+
+.main-p {
+    text-align: center;
+    margin: -1px 16px;
+    color: hsl(224, 23%, 55%);
+}
+
+.plan-box {
+    display: flex;
+    background: hsl(225, 100%, 98%);
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    position: relative;
+}
+
+.plan-box img {
+    width: 45px;
+    height: 45px;
+}
+
+.annual-plan-box {
+    display: flex;
+    flex-direction: column;
+    margin: 2px 18px;
+}
+
+.annual-plan-box h3 {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.annual-plan-box span {
+    margin-top: 2px;
+    color: hsl(224, 23%, 55%);
+}
+
+.change-btn {
+    font-size: 13px;
+    font-size: 13px;
+    margin: 12px 0 0 24px;
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.proceed-btn {
+    width: 100%;
+    background: hsl(245, 75%, 52%);
+    color: white;
+    font-family: "Red Hat Display";
+    font-weight: 700;
+    font-size: 14.5px;
+    border: none;
+    border-radius: 11px;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    -ms-border-radius: 11px;
+    -o-border-radius: 11px;
+    box-shadow: 0px 20px 20px 0px hsla(245, 75%, 52%, 0.2);
+}
+
+.cancel-order {
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-weight: 900;
+    color: hsl(224, 23%, 55%);
+    font-size: 14px;
+}
+
+.change-btn:hover,
+.proceed-btn:hover {
+    cursor: pointer;
+    filter: opacity(0.5);
+    -webkit-filter: opacity(0.5);
+    text-decoration: none;
+}
+
+.cancel-order:hover {
+    cursor: pointer;
+    color: hsl(223, 47%, 23%);
+}
