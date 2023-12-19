@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Solution URL](https://your-solution-url.com)
+-   Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/order-summary-component-responsive-pure-html-css-i4zZnNQ-Gz)
 -   Live Site URL: [Live Site URL](https://order-summary-component-or.netlify.app/)
 
 ## My process
